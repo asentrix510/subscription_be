@@ -1,4 +1,4 @@
-import {Router} from express;
+import {Router} from "express";
 const subscriptionRouter=Router() //instantiation
 subscriptionRouter.get('/',(req,res)=>{
     res.send("Get all subscriptions")
